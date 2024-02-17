@@ -1,0 +1,21 @@
+{
+    "name": "jhonata/cadastro_produto",
+    "description": "Sistema de cadastro de produto, feito no desafio de PHP",
+    "type": "project",
+    "license": "freee",
+    "autoload": {
+        "psr-4": {
+            "Jhonata\\CadastroProduto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhonata Silva",
+            "email": "cicerojhonataoficial@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "start": "php src/init.php"
+    }
+}
