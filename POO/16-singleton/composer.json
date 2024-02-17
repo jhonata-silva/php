@@ -1,0 +1,22 @@
+{
+    "name": "jhonata/composer",
+    "type": "project",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Jhonata\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhonata Silva",
+            "email": "cicerojhonataoficial@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "scripts": {
+        "autoload": "composer dump-autoload"
+    }
+}
