@@ -1,6 +1,7 @@
 <?php
 
 function init(){
+    while (true) {
         limpaTela();
         echo "Menu:\n";
         echo verde("1. Adicionar produto\n");
@@ -25,6 +26,7 @@ function init(){
             default:
                 echo "Opção inválida.\n";
         }
+    }
 }
 
 
