@@ -14,7 +14,9 @@
             "email": "cicerojhonataoficial@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "catfan/medoo": "^2.1"
+    },
     "scripts": {
         "start": "php src/init.php"
     }

@@ -1,5 +1,7 @@
 <?php
 
+namespace Danilo\CadastroProduto\Lib\Display;
+
 function mensagemComEsperaVermelho($mensagem){
     limpaTela();
     echo vermelho($mensagem . "\n");

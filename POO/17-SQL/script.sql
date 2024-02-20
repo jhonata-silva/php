@@ -11,6 +11,6 @@ CREATE TABLE IF NOT EXISTS produtos (
 );
 
 -- Comando para aplicar o script no DATABASE
--- mysql -u boot -p'boot' estoque < C:script.sql
+-- mysql -u root -p'root' estoque < C:script.sql
 
 
