@@ -1,6 +1,0 @@
-Namespace: Loja\Estoque
-Desenvolva uma classe chamada ProdutoEstoque. Esta classe deve conter propriedades para id, nomeProduto, descricao, quantidade e preco.
-O id do produto deve ser gerado automaticamente a cada novo produto criado.
-O construtor da classe deve aceitar parâmetros para nomeProduto, descricao, quantidade e preco.
-Implemente métodos para adicionar e remover quantidades do produto.
-A classe deve também ter um método estático que retorne o total de produtos em estoque.
