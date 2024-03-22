@@ -1,0 +1,16 @@
+{
+    "name": "jhonata/igreja",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Jhonata\\Igreja\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhonata Silva",
+            "email": "cicerojhonataoficial@gmail.com"
+        }
+    ],
+    "require": {}
+}

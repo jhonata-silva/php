@@ -1,0 +1,590 @@
+@font-face {
+    font-family: 'CormorantBold';
+    src: url('font/Cormorant-Bold.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('font/Cormorant-Regular.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'QanelasBold';
+    src: url('font/Qanelas-Bold.otf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'QanelasMedium';
+    src: url('font/Qanelas-Medium.otf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Qanelas';
+    src: url('font/Qanelas-Regular.otf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: #FAFAFA;
+}
+
+/*CABECALHO 02*/
+
+.cabecalho02 {
+    background-color: transparent;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho02 li a {
+    color: white;
+    font-family: QanelasBold;
+    font-size: 18px;
+}
+
+.cabecalho02 li a:hover {
+    color: #8DD0AB;
+}
+
+
+/*FIM DE CABECALHO 02*/
+
+.largura {
+    width: 1200px;
+}
+
+.espacamentoSuperior {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cab01 {
+    background-color: #8DD0AB;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    margin-top: 0;
+    padding: 0px;
+    z-index: 10;
+}
+
+.cab02 {
+    background-color: #000337;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rodape {
+    background: url('img/rodape-bk.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.espacamento-rodape {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.largura-rodape {
+    width: 950px;
+}
+
+.logo-rodape {
+    padding-bottom: 30px;
+}
+
+.rodape-descricao {
+    padding-right: 70px;
+}
+
+.rodape p {
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin: 0px;
+    text-align: left;
+}
+
+.rodape h4 {
+    font-size: 24px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.rodape-list {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape-list li {
+    margin-right: 20px;
+    /* Adapte conforme necessário para o espaçamento desejado */
+    align-items: center;
+    /* Alinha verticalmente os elementos dentro da li */
+    text-align: center;
+}
+
+.icon-rodape {
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+.rodape a {
+    color: transparent;
+}
+
+.rodape-01 {
+    background-color: #000337;
+}
+
+.rodape-01 p {
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.rodape-01 a {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-img {
+    margin-top: 0px;
+    padding-top: 0px;
+    background: url('img/destaque-familia-com-corretora-1536x979.png') no-repeat center center;
+    background-size: cover;
+}
+
+.overlay {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 3, 55, 0.75);
+    /* Cor #000337 com 50% de opacidade */
+}
+
+.hero-img h1 {
+    color: white;
+    font-size: 88px;
+    margin-right: -100px;
+    font-family: CormorantBold;
+}
+
+.hero-img p {
+    color: white;
+    font-size: 21px;
+    font-family: QanelasBold;
+}
+
+.hero-img span {
+    color: white;
+    font-size: 15px;
+    font-family: QanelasBold;
+}
+
+.coteja {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.coteja:hover {
+    background-color: none;
+    color: white;
+}
+
+.btn-custom {
+    border-color: #fff;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #fff;
+    color: #000337;
+}
+
+.sobre {
+    background: linear-gradient(-230deg, #8DD0AB 10%, white 40%, white 80%);
+}
+
+.espacamentoSobre {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.card {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 61em;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    width: 1000px;
+}
+
+.card p {
+    color: white;
+    font-size: 22px;
+    padding-top: -10px
+}
+
+.servicos .card-costa p {
+    color: white;
+    font-size: 20px;
+    line-height: 28px !important;
+    font-family: Qanelas;
+    margin: 10px;
+    padding: 0px;
+}
+
+.card-costa {
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #8DD0AB;
+    align-items: center;
+    display: none;
+    opacity: 0;
+    /* Começa invisível */
+    animation: fade-in 0.3s ease-in-out forwards;
+    /* Aplica a animação */
+}
+
+.icon-card {
+    font-size: 80px;
+    color: white;
+}
+
+.icon-card-black {
+    font-size: 80px;
+    color: #000337;
+}
+
+.bloco02 p {
+    color: #000000;
+
+}
+
+.bloco01 {
+    padding: 30px;
+    background-color: #000337;
+    border-radius: 30px;
+    width: 300px;
+    height: 230px;
+}
+
+.bloco02 {
+    padding: 30px;
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    width: 300px;
+    height: 230px;
+}
+
+.bloco03 {
+    padding: 30px;
+    background-color: #8DD0AB;
+    border-radius: 30px;
+    width: 300px;
+    height: 230px;
+}
+
+.servicosContainer {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.cardServico {
+    margin: 3px;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    position: relative;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.cardServico p {
+    color: white;
+    font-family: QanelasBold;
+    font-size: 28px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.fundoCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    opacity: 1;
+    /* Começa visível */
+    animation: fade-in 0.3s ease-in-out forwards;
+    /* Aplica a animação */
+}
+
+.colunaImg {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servico01 {
+    background-image: url("img/Seguro automovel.jpg");
+}
+
+.servico02 {
+    background-image: url("img/Seguro Empresarial.jpg");
+}
+
+.servico03 {
+    background-image: url("img/Seguro Residencial.jpg");
+}
+
+.servico04 {
+    background-image: url("img/Seguro Residencial.jpg");
+}
+
+.servico05 {
+    background-image: url("img/Seguro Saude.jpg");
+}
+
+.servico06 {
+    background-image: url("img/segura-de-vida.jpg");
+}
+
+.servico07 {
+    background-image: url("img/consorcio.jpg");
+}
+
+.servico08 {
+    background-image: url("img/investimento.jpg");
+}
+
+.CTA {
+    background-color: #E6E6E6;
+}
+
+.CTA p {
+    font-size: 30px;
+    font-family: qAnelas;
+    color: #777777;
+    text-align: left;
+}
+
+.CTA h2 {
+    text-align: left;
+}
+
+.containerCTA {
+    width: 100%;
+    padding: 70px;
+}
+
+.contatoHome {
+    background: linear-gradient(-230deg, #8DD0AB 10%, white 40%, white 80%);
+}
+
+.icone-perguntas {
+    color: #000337;
+    font-size: 100px;
+}
+
+.imgHome {
+    position: relative;
+    left: -100px;
+}
+
+.btnContato {
+    border-color: #000337;
+    color: #000337;
+    padding: 15px 30px 15px 30px;
+    border-radius: 13px;
+}
+
+.btnContato:hover {
+    background-color: #000337;
+    padding: 15px 30px 15px 30px;
+    color: white;
+}
+
+.parceiros {
+    background-color: #E6E6E6;
+}
+
+.imgParceiros {
+    width: 250px;
+    padding-top: -30px;
+    padding-bottom: -30px;
+}
+
+.espacamentoParceiros {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+/*PAGINA SOBRE*/
+
+.valores-sobre{
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.destaque-sobre {
+    height: 70vh;
+    background: url('img/destaque-sobre-valecor-seguros-e1675662980520.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.destaque-sobre h1 {
+    position: absolute;
+    bottom: 20px;
+    /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    color: white;
+    font-family: Qanelas;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.divisor {
+    width: 50px; /* comprimento desejado */
+    height: 3px; /* altura desejada */
+    background-color: #8DD0AB; /* cor desejada */
+    margin: 0 auto; /* alinhar ao centro horizontalmente */ 
+    margin-bottom: 50px;
+    margin-top: 10px;   
+}
+
+
+.espacamento-sobre-sobre {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.espacamento-sobre-sobre h4 {
+    color: #8DD0AB;
+    font-size: 16px;
+}
+
+.titulo-sobre-sobre {
+    padding-bottom: 50px;
+}
+
+.secao-imagens {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.img-sobre {
+    border-radius: 15px;
+    width: 335px; /* largura desejada */
+    height: 335px; /* altura desejada */
+    object-fit: cover;
+    border: 0px -30px 0px -30px;
+}
+
+.espacamento-cultura-organizacional{
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    height: 670px;
+    border-bottom: 3px solid #000337;
+}
+
+.espacamento-cultura-organizacional:hover{
+    border-bottom: 3px solid #8DD0AB;
+}
+
+.valores-sobre h3{
+    font-size: 32px;
+    padding-top: 30px;
+}
+
+.valores-sobre p{
+    font-size: 20px;
+    padding: 0px 50px 0px 50px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+
+@media (max-width: 768px) {
+    .secao-imagens .row {
+        flex-direction: column;
+    }
+}
+
+/*FIM DA PAGINA SOBRE*/
+
+
+h1 {
+    font-family: CormorantBold;
+}
+
+h2 {
+    font-size: 46px;
+    font-family: QanelasBold;
+    color: #000337;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: QanelasBold;
+    color: #000337;
+}
+
+p {
+    font-size: 22px;
+    font-family: Qanelas;
+    line-height: 40px;
+    color: #7a7a7a;
+}
+
+/* Adicione a seguinte animação */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
