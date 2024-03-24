@@ -33,17 +33,51 @@ body {
     background-color: #FAFAFA;
 }
 
-/*CABECALHO 02*/
+/*CABECALHO 01*/
+.cabecalho li a {
+    color: white;
+    font-family: QanelasBold;
+    font-size: 18px;
+}
 
-.cabecalho02 {
-    background-color: transparent;
-    position: absolute;
+.cabecalho li a:hover {
+    color: #8DD0AB;
+}
+
+.cab01 {
+    background-color: #8DD0AB;
+    width: 100%;
+    height: 15px;
+    margin: 0px;
+    margin-top: 0;
+    padding: 0px;
+    z-index: 20; /* Ajuste o z-index para que a linha verde fique acima do cabeçalho azul */
+}
+
+.cabecalho {
+    position: fixed;
+    background-color: #000337;
     height: 80px;
     width: 100%;
     display: flex;
     z-index: 10;
     margin: 0px;
     padding: 0px;
+    transition: top 0.3s ease-in-out; /* Adiciona uma transição suave para o movimento */
+}
+/*FIM DE CABECALHO 01*/
+
+/*CABECALHO 02*/
+.cabecalho02 {
+    position: fixed;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    margin: 0px;
+    padding: 0px;
+    transition: top 0.3s ease-in-out; /* Adiciona uma transição suave para o movimento */
 }
 
 .cabecalho02 li a {
@@ -55,8 +89,6 @@ body {
 .cabecalho02 li a:hover {
     color: #8DD0AB;
 }
-
-
 /*FIM DE CABECALHO 02*/
 
 .largura {
@@ -66,26 +98,6 @@ body {
 .espacamentoSuperior {
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.cab01 {
-    background-color: #8DD0AB;
-    width: 100%;
-    height: 30px;
-    margin: 0px;
-    margin-top: 0;
-    padding: 0px;
-    z-index: 10;
-}
-
-.cab02 {
-    background-color: #000337;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    z-index: 10;
-    margin: 0px;
-    padding: 0px;
 }
 
 .rodape {
@@ -234,7 +246,6 @@ body {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 61em;
     transform: translateY(-50%);
     background-color: transparent;
     border: none;
@@ -460,7 +471,7 @@ body {
 
 /*PAGINA SOBRE*/
 
-.valores-sobre{
+.valores-sobre {
     margin-bottom: 100px;
     margin-top: 70px;
 }
@@ -486,16 +497,21 @@ body {
 }
 
 .divisor {
-    width: 50px; /* comprimento desejado */
-    height: 3px; /* altura desejada */
-    background-color: #8DD0AB; /* cor desejada */
-    margin: 0 auto; /* alinhar ao centro horizontalmente */ 
+    width: 50px;
+    /* comprimento desejado */
+    height: 3px;
+    /* altura desejada */
+    background-color: #8DD0AB;
+    /* cor desejada */
+    margin: 0 auto;
+    /* alinhar ao centro horizontalmente */
     margin-bottom: 50px;
-    margin-top: 10px;   
+    margin-top: 10px;
 }
 
 
-.espacamento-sobre-sobre {
+.espacamento-sobre-sobre,
+.espacamento-sobre-contato {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -516,29 +532,31 @@ body {
 
 .img-sobre {
     border-radius: 15px;
-    width: 335px; /* largura desejada */
-    height: 335px; /* altura desejada */
+    width: 335px;
+    /* largura desejada */
+    height: 335px;
+    /* altura desejada */
     object-fit: cover;
     border: 0px -30px 0px -30px;
 }
 
-.espacamento-cultura-organizacional{
+.espacamento-cultura-organizacional {
     background-color: white;
     border-radius: 15px 15px 0px 0px;
     height: 670px;
     border-bottom: 3px solid #000337;
 }
 
-.espacamento-cultura-organizacional:hover{
+.espacamento-cultura-organizacional:hover {
     border-bottom: 3px solid #8DD0AB;
 }
 
-.valores-sobre h3{
+.valores-sobre h3 {
     font-size: 32px;
     padding-top: 30px;
 }
 
-.valores-sobre p{
+.valores-sobre p {
     font-size: 20px;
     padding: 0px 50px 0px 50px;
     line-height: 32px;
@@ -554,6 +572,104 @@ body {
 
 /*FIM DA PAGINA SOBRE*/
 
+/*PAGINA CONTATO*/
+
+.destaque-contato {
+    height: 70vh;
+    background: url('img/destaque-sobre-valecor-seguros-e1675662980520.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.destaque-contato h1 {
+    position: absolute;
+    bottom: 50px;
+    font-size: 34px;
+    color: white;
+    font-family: Qanelas;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    /* Ajuste o valor conforme necessário */
+}
+
+.destaque-list {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    bottom: 70px;
+    padding: 0px;
+}
+
+.destaque-list i {
+    font-size: 20px;
+    background-color: #8DD0AB;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}
+
+.meu-formulario {
+    background-color: white;
+    padding: 30px;
+    margin: -215px 0px 115px 0px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.meu-formulario label {
+    font-size: 14px;
+    color: #7A7A7A;
+}
+
+.meu-formulario input,
+.meu-formulario select,
+.meu-formulario button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.meu-formulario button {
+    background-color: #000337;
+    margin-top: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.meu-formulario button:hover {
+    background-color: #8DD0AB;
+}
+
+.meu-formulario .checkbox-container {
+    display: flex;
+    align-items: center;
+    /* Alinha os itens verticalmente */
+}
+
+.meu-formulario .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+    /* Adiciona margem à direita para separar a caixa de seleção do texto */
+    width: auto; /* Define a largura da caixa de seleção como automática */
+    height: auto; /* Define a altura da caixa de seleção como automática */
+}
+
+
+
+
+/*FIM DA PAGINA CONTATO*/
 
 h1 {
     font-family: CormorantBold;

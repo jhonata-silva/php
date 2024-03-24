@@ -114,7 +114,7 @@
     <!-- Fim de Sobre -->
 
     <!-- Seção de Serviços -->
-<section class="servicos">
+<section class="servicos" id="servicos">
     <div class="container largura servicosContainer">
         <div>
             <h2>Nossos Serviços</h2>
